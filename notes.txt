@@ -1,5 +1,5 @@
 https://boisterous-concha-2088a1.netlify.app/
 
-D:\Downloads\[ DevCourseWeb.com ] Udemy - Build A Professional Responsive Portfolio Website - React JS\~Get Your Files Here !\5. NavBar Section
+D:\Downloads\[ DevCourseWeb.com ] Udemy - Build A Professional Responsive Portfolio Website - React JS\~Get Your Files Here !\7. Home Page Section
 
-start from item 3
+start from item 1
