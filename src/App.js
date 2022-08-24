@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
@@ -10,13 +10,17 @@ function App() {
   const particlesinit = async (main) => {
     await loadFull(main);
   };
+  const location = useLocation();
+
   return (
     <div>
-      <Particles
-        id='particles'
-        options={particlesConfig}
-        init={particlesinit}
-      />
+      {location.pathname === "/" && (
+        <Particles
+          id='particles'
+          options={particlesConfig}
+          init={particlesinit}
+        />
+      )}
       <Navbar />
       <Routes>
         <Route path='/' index element={<Home />} />
